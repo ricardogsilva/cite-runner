@@ -67,6 +67,7 @@ ci = [
 docs = [
     "mkdocs>=1.6.1,<2.0.0",
     "mkdocs-material>=9.6.9,<10.0.0",
+    "mkdocs-slides>=0.1.3",
 ]
 
 [tool.uv]

@@ -4,10 +4,14 @@ nav:
   - standalone: running-as-standalone-cli.md
   - OGC Test suites: ogc-test-suites.md
   - Development: development.md
+  - Resources:
+      - slides/index.md
 
 site_name: ogc-cite-runner
 site_url: https://osgeo.github.io/ogc-cite-runner
 repo_url: https://github.com/OSGeo/ogc-cite-runner
+plugins:
+  - slides
 markdown_extensions:
   - admonition
   - attr_list
